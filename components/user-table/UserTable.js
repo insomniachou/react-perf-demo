@@ -1,5 +1,6 @@
 import React, { useReducer, useCallback } from "react";
 import Table from "react-bootstrap/Table";
+import shallowEqual from "../../utils/shallowEqual";
 
 const COLUMN_KEYS = [
   "first_name",
